@@ -1,0 +1,35 @@
+Envoyez-nous une vidéo comme preuve de réception.
+      </p>
+      <p><strong>NB :</strong> Les frais de transaction sont payables après l’investissement. Les frais d’approbation et de conversion varient selon le réseau utilisé.</p>
+    </div>
+
+    <div class="section form-section">
+      <h2>Formulaire d'investissement</h2>
+      <form>
+        <label for="name">Nom complet</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Téléphone</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="country">Pays</label>
+        <select id="country" name="country" required>
+          <option value="">Sélectionner...</option>
+          <option value="Cameroun">Cameroun</option>
+          <option value="France">France</option>
+          <option value="Sénégal">Sénégal</option>
+          <option value="Côte d’Ivoire">Côte d’Ivoire</option>
+          <option value="Autre">Autre</option>
+        </select>
+
+        <button type="submit">Investir maintenant</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Investissement Fiable. Tous droits réservés.
+  </footer>
+
+</body>
+</html>
