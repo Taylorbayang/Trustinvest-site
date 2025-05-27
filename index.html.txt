@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Investissement Fiable</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Investissez avec Confiance</h1>
+
+    <section class="intro">
+      <p><strong>Investir avec nous, c’est choisir la fiabilité à 200 %.</strong></p>
+      <p>Notre méthode n’a rien à voir avec des pratiques mystiques ou surnaturelles, mais repose sur une <strong>technologie de pointe</strong>.</p>
+      <p>Nous respectons trois principes essentiels :</p>
+      <ul>
+        <li><strong>1. LA CONFIANCE ✅</strong></li>
+        <li><strong>2. LA PATIENCE ✅</strong></li>
+        <li><strong>3. LA SATISFACTION ✅</strong></li>
+      </ul>
+      <p>Avec ces trois valeurs, vous êtes certain de ne rencontrer aucun problème.</p>
+    </section>
+
+    <section class="procedure">
+      <h2>Procédure d’investissement</h2>
+      <ol>
+        <li>Envoyez-nous votre numéro Mobile.</li>
+        <li>Effectuez un dépôt sur notre compte (incluant les frais de transaction).</li>
+        <li>Patientez 1h30 : nous investissons votre argent via notre méthode de trading avancée.</li>
+        <li>Vous recevez vos fonds directement sur votre compte.</li>
+        <li>Envoyez une vidéo de confirmation (preuve de réception).</li>
+      </ol>
+      <p><strong>NB :</strong> Les frais de transaction sont à régler après réception de la facture. Ils couvrent les coûts d'investissement et d’approbation, et varient selon le réseau utilisé.</p>
+    </section>
+
+    <hr />
+
+    <h2>Formulaire d'Investissement</h2>
+    <form id="investmentForm" onsubmit="handleSubmit(event)">
+      <label>Nom complet :</label>
+      <input type="text" id="name" required />
+
+      <label>Numéro de téléphone :</label>
+      <input type="tel" id="phone" required />
+
+      <label>Pays :</label>
+      <input type="text" id="country" required />
+
+      <label>Montant à investir :</label>
+      <select id="amount" onchange="calculateReturn()" required>
+        <option value="">-- Choisissez un montant --</option>
+        <option value="20000">20 000 F</option>
+        <option value="30000">30 000 F</option>
+        <option value="50000">50 000 F</option>
+        <option value="100000">100 000 F</option>
+      </select>
+
+      <div id="returnDisplay"></div>
+
+      <button type="submit">Valider l'investissement</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
